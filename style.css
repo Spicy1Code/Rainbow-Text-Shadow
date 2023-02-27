@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+h1 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 13vw;
+  letter-spacing: 0.10em;
+  cursor: pointer;
+  transition: text-shadow 1.5s;
+}
+h1:hover {
+  text-shadow: 0.04em 0.04em #fc0049, 0.08em 0.08em #fe8f01,
+    0.12em 0.12em #fdf21f, 0.16em 0.16em #3fdf4b, 0.2em 0.2em #3462fe;
+}
